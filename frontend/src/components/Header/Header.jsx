@@ -77,7 +77,7 @@ const Header = () => {
                   <div className="nav__right d-flex align-items-center gap-4">
                      <div className="nav__btns d-flex align-items-center gap-2">
                         {
-                           user ? <> <h5 className='mb-0'>{user.username}</h5>
+                           user ? 
                                  <Button className='btn btn-dark' onClick={logout}>Logout</Button>
                               </> : <>
                                  <Button className='btn secondary__btn'><Link to='/login'>Login</Link></Button>
